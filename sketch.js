@@ -73,7 +73,7 @@ function draw() {
         gameOver.visible = false;
         text("presiona la tecla espacio para empezar",width/3,height/2+130);
         score = 0;
-        if(touches.lenght>0||keyDown("space") && trex.y>=height-110){
+        if(touches.lenght>0||keyDown("space")){
             gameState = "play";
         }
 
